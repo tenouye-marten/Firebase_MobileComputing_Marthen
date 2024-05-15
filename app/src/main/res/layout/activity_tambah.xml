@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tambah">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayou5t"
+            android:layout_width="303dp"
+            android:layout_height="89dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nametext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:text="Judul" />
+
+            <EditText
+                android:id="@+id/Judul"
+                android:layout_width="303dp"
+                android:layout_height="60dp"
+                android:background="@drawable/edtext"
+                android:ems="10"
+
+                android:hint="Enter Judul"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="303dp"
+            android:layout_height="89dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nametext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/Ayat"
+                android:layout_width="303dp"
+                android:layout_height="60dp"
+                android:background="@drawable/edtext"
+                android:ems="10"
+
+                android:hint="Enter Ayat"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="303dp"
+            android:layout_height="89dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nametex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/Deskripsi"
+                android:layout_width="303dp"
+                android:layout_height="60dp"
+                android:background="@drawable/edtext"
+                android:ems="10"
+
+                android:hint="Enter Deskripsi"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_width="303dp"
+
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnBrowse"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="Browse" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imgShow"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    tools:srcCompat="@tools:sample/avatars" />-->
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Upload" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/myDataLoaderprogressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateBehavior="cycle"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

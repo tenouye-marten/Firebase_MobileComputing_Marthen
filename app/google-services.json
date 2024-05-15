@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "997982821386",
+    "firebase_url": "https://mc-marthen-default-rtdb.firebaseio.com",
+    "project_id": "mc-marthen",
+    "storage_bucket": "mc-marthen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997982821386:android:712ac8d9a34b1a486293f3",
+        "android_client_info": {
+          "package_name": "com.example.mc_marthent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4UxVACtMecLcM1kO-GspDSKVKP4PuLqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
